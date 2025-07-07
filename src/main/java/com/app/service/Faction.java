@@ -46,6 +46,8 @@ public class Faction {
 
                 robotCount++;
                 System.out.printf("Faction %s has built a robot! Total robots: %d%n", name, robotCount);
+            } else {
+                break;
             }
         }
     }
